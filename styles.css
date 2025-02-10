@@ -229,3 +229,29 @@ footer {
     font-weight: bold;
 }
 
+.about {
+    max-width: 700px; /* Mesmo tamanho das thumbnails */
+    margin: 0 auto;
+    padding: var(--spacing);
+    background: var(--surface);
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing);
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-image img {
+    width: 150px; /* Ajuste conforme necessário */
+    height: 150px; /* Mantém a imagem quadrada */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 50%; /* Formato circular */
+}
